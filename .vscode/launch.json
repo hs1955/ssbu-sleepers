@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "TUI in WezTerm",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/tui/app.py",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "console": "externalTerminal",
+      "justMyCode": true,
+      "env": {
+        "TERM_PROGRAM": "WezTerm"
+      }
+    }
+  ]
+}

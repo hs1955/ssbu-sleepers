@@ -1,0 +1,15 @@
+# Project Structure
+
+core/                     ← pure Python, no Textual
+  models.py               TierList, Tier, Entry dataclasses
+  storage.py              load/save JSON
+  aggregate.py            weighted average + outlier detection
+  cli.py                  `python -m core.cli` prints the final board
+
+tui/                      ← screens only, calls into core
+  app.py                  App + SCREENS registry
+  screens/
+    menu.py               main menu
+    new_list.py           ModalScreen: name, tiers, PAR, importance
+    editor.py             the tier board (your existing demo, made reusable)
+    results.py            final board + outlier table

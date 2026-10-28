@@ -1,0 +1,47 @@
+Screen {
+  layout: vertical;
+}
+
+#main {
+  height: 1fr;
+}
+
+#tiers {
+  width: 3fr;
+  padding: 1;
+  overflow-y: auto;
+}
+
+#preview {
+  width: 22;
+  border: solid $accent;
+  padding: 1;
+}
+
+#preview-name {
+  height: 3;
+  content-align: center middle;
+  text-style: bold;
+}
+
+#preview-image {
+  height: 20;
+}
+
+.tier-row {
+  height: auto;
+  padding: 0;
+}
+
+.tier-label {
+  width: 4;
+  content-align: center middle;
+  text-style: bold;
+  background: $boost;
+}
+
+.thumb {
+  width: 8;
+  height: 4;
+  margin-right: 1;
+}

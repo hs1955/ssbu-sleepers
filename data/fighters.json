@@ -1,0 +1,414 @@
+{
+  "fighters": [
+    {
+      "id": 1,
+      "name": "Mario",
+      "image": "001-mariopng.png"
+    },
+    {
+      "id": 2,
+      "name": "Donkey Kong",
+      "image": "002-donkeykongpng.png"
+    },
+    {
+      "id": 3,
+      "name": "Link",
+      "image": "003-linkpng.png"
+    },
+    {
+      "id": 5,
+      "name": "Yoshi",
+      "image": "005-yoshipng.png"
+    },
+    {
+      "id": 6,
+      "name": "Kirby",
+      "image": "006-kirbypng.png"
+    },
+    {
+      "id": 7,
+      "name": "Fox",
+      "image": "007-foxpng.png"
+    },
+    {
+      "id": 8,
+      "name": "Pikachu",
+      "image": "008-pikachupng.png"
+    },
+    {
+      "id": 9,
+      "name": "Luigi",
+      "image": "009-luigipng.png"
+    },
+    {
+      "id": 10,
+      "name": "Ness",
+      "image": "010-nesspng.png"
+    },
+    {
+      "id": 11,
+      "name": "Captain Falcon",
+      "image": "011-captainfalconpng.png"
+    },
+    {
+      "id": 12,
+      "name": "Jigglypuff",
+      "image": "012-jigglypuffpng.png"
+    },
+    {
+      "id": 14,
+      "name": "Bowser",
+      "image": "014-bowserpng.png"
+    },
+    {
+      "id": 15,
+      "name": "Ice Climbers",
+      "image": "015-iceclimberspng.png"
+    },
+    {
+      "id": 16,
+      "name": "Sheik",
+      "image": "016-sheikpng.png"
+    },
+    {
+      "id": 17,
+      "name": "Zelda",
+      "image": "017-zeldapng.png"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Mario",
+      "image": "018-drmariopng.png"
+    },
+    {
+      "id": 19,
+      "name": "Pichu",
+      "image": "019-pichupng.png"
+    },
+    {
+      "id": 20,
+      "name": "Falco",
+      "image": "020-falcopng.png"
+    },
+    {
+      "id": 21,
+      "name": "Marth",
+      "image": "021-marthpng.png"
+    },
+    {
+      "id": 22,
+      "name": "Young Link",
+      "image": "022-younglinkpng.png"
+    },
+    {
+      "id": 23,
+      "name": "Ganondorf",
+      "image": "023-ganondorfpng.png"
+    },
+    {
+      "id": 24,
+      "name": "Mewtwo",
+      "image": "024-mewtwopng.png"
+    },
+    {
+      "id": 25,
+      "name": "Roy",
+      "image": "025-roypng.png"
+    },
+    {
+      "id": 26,
+      "name": "Mr. Game & Watch",
+      "image": "026-mrgamewatchpng.png"
+    },
+    {
+      "id": 27,
+      "name": "Meta Knight",
+      "image": "027-metaknightpng.png"
+    },
+    {
+      "id": 29,
+      "name": "Zero Suit Samus",
+      "image": "029-zerosuitsamuspng.png"
+    },
+    {
+      "id": 30,
+      "name": "Wario",
+      "image": "030-wariopng.png"
+    },
+    {
+      "id": 31,
+      "name": "Snake",
+      "image": "031-snakepng.png"
+    },
+    {
+      "id": 32,
+      "name": "Ike",
+      "image": "032-ikepng.png"
+    },
+    {
+      "id": 34,
+      "name": "Diddy Kong",
+      "image": "034-diddykongpng.png"
+    },
+    {
+      "id": 35,
+      "name": "Lucas",
+      "image": "035-lucaspng.png"
+    },
+    {
+      "id": 36,
+      "name": "Sonic",
+      "image": "036-sonicpng.png"
+    },
+    {
+      "id": 37,
+      "name": "King Dedede",
+      "image": "037-kingdededepng.png"
+    },
+    {
+      "id": 38,
+      "name": "Olimar",
+      "image": "038-olimarpng.png"
+    },
+    {
+      "id": 39,
+      "name": "Lucario",
+      "image": "039-lucariopng.png"
+    },
+    {
+      "id": 40,
+      "name": "R.O.B.",
+      "image": "040-robpng.png"
+    },
+    {
+      "id": 41,
+      "name": "Toon Link",
+      "image": "041-toonlinkpng.png"
+    },
+    {
+      "id": 42,
+      "name": "Wolf",
+      "image": "042-wolfpng.png"
+    },
+    {
+      "id": 43,
+      "name": "Villager",
+      "image": "043-villagerpng.png"
+    },
+    {
+      "id": 44,
+      "name": "Mega Man",
+      "image": "044-megamanpng.png"
+    },
+    {
+      "id": 45,
+      "name": "Wii Fit Trainer",
+      "image": "045-wiifittrainerpng.png"
+    },
+    {
+      "id": 46,
+      "name": "Rosalina & Luma",
+      "image": "046-rosalinalumapng.png"
+    },
+    {
+      "id": 47,
+      "name": "Little Mac",
+      "image": "047-littlemacpng.png"
+    },
+    {
+      "id": 48,
+      "name": "Greninja",
+      "image": "048-greninjapng.png"
+    },
+    {
+      "id": 49,
+      "name": "Palutena",
+      "image": "049-palutenapng.png"
+    },
+    {
+      "id": 51,
+      "name": "Pac-Man",
+      "image": "051-pacmanpng.png"
+    },
+    {
+      "id": 52,
+      "name": "Lucina",
+      "image": "052-lucinapng.png"
+    },
+    {
+      "id": 53,
+      "name": "Robin",
+      "image": "053-robinpng.png"
+    },
+    {
+      "id": 54,
+      "name": "Shulk",
+      "image": "054-shulkpng.png"
+    },
+    {
+      "id": 55,
+      "name": "Bowser Jr.",
+      "image": "055-bowserjrpng.png"
+    },
+    {
+      "id": 56,
+      "name": "Duck Hunt",
+      "image": "056-duckhuntpng.png"
+    },
+    {
+      "id": 57,
+      "name": "Ryu",
+      "image": "057-ryupng.png"
+    },
+    {
+      "id": 58,
+      "name": "Cloud",
+      "image": "058-cloudpng.png"
+    },
+    {
+      "id": 59,
+      "name": "Corrin",
+      "image": "059-corrinpng.png"
+    },
+    {
+      "id": 60,
+      "name": "Bayonetta",
+      "image": "060-bayonettapng.png"
+    },
+    {
+      "id": 61,
+      "name": "Inkling",
+      "image": "061-inklingpng.png"
+    },
+    {
+      "id": 63,
+      "name": "Ridley",
+      "image": "063-ridleypng.png"
+    },
+    {
+      "id": 66,
+      "name": "Chrom",
+      "image": "066-chrompng.png"
+    },
+    {
+      "id": 68,
+      "name": "King K. Rool",
+      "image": "068-kingkroolpng.png"
+    },
+    {
+      "id": 69,
+      "name": "Isabelle",
+      "image": "069-isabellepng.png"
+    },
+    {
+      "id": 70,
+      "name": "Ken",
+      "image": "070-kenpng.png"
+    },
+    {
+      "id": 71,
+      "name": "Incineroar",
+      "image": "071-incineroarpng.png"
+    },
+    {
+      "id": 72,
+      "name": "Piranha Plant",
+      "image": "072-piranhaplantpng.png"
+    },
+    {
+      "id": 73,
+      "name": "Joker",
+      "image": "073-jokerpng.png"
+    },
+    {
+      "id": 74,
+      "name": "Hero",
+      "image": "074-heropng.png"
+    },
+    {
+      "id": 75,
+      "name": "Banjo & Kazooie",
+      "image": "075-banjokazooiepng.png"
+    },
+    {
+      "id": 76,
+      "name": "Terry",
+      "image": "076-terrypng.png"
+    },
+    {
+      "id": 77,
+      "name": "Byleth",
+      "image": "077-bylethpng.png"
+    },
+    {
+      "id": 78,
+      "name": "Min Min",
+      "image": "078-minminpng.png"
+    },
+    {
+      "id": 79,
+      "name": "Steve",
+      "image": "079-stevepng.png"
+    },
+    {
+      "id": 80,
+      "name": "Sephiroth",
+      "image": "080-sephirothpng.png"
+    },
+    {
+      "id": 82,
+      "name": "Mii Brawler",
+      "image": "082-miibrawlerpng.png"
+    },
+    {
+      "id": 83,
+      "name": "Mii Swordfighter",
+      "image": "083-miiswordpng.png"
+    },
+    {
+      "id": 84,
+      "name": "Mii Gunner",
+      "image": "084-miigunnerpng.png"
+    },
+    {
+      "id": 139,
+      "name": "Kazuya",
+      "image": "zz1623866748kazuya1png.png"
+    },
+    {
+      "id": 141,
+      "name": "Sora",
+      "image": "zz1634516632sorapng.png"
+    },
+    {
+      "id": 33,
+      "name": "Pokémon Trainer",
+      "image": "033-pokemontrainerpng.png"
+    },
+    {
+      "id": 81,
+      "name": "Pythra",
+      "image": "081-pyramythrapng.png"
+    },
+    {
+      "id": 85,
+      "name": "Samus & Dark Samus",
+      "image": "085-samus-darksamuspng.png"
+    },
+    {
+      "id": 86,
+      "name": "Peach & Daisy",
+      "image": "086-peach-daisypng.png"
+    },
+    {
+      "id": 89,
+      "name": "Pit & Dark Pit",
+      "image": "089-pit-darkpitpng.png"
+    },
+    {
+      "id": 91,
+      "name": "Belmonts",
+      "image": "091-simon-richterpng.png"
+    }
+  ]
+}
