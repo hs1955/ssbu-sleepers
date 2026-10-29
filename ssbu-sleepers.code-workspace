@@ -4,5 +4,27 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"workbench.colorCustomizations": {
+			"[Monokai Vibrant]": {
+				"activityBar.foreground": "#ffffff",
+				"diffEditor.removedTextBackground": "#ff00dd30",
+				"diffEditor.insertedTextBackground": "#00ffd520"
+			},
+			"editor.lineHighlightBackground": "#1073cf2d",
+			"editor.lineHighlightBorder": "#9fced11f",
+			"activityBar.background": "#551913",
+			"titleBar.activeBackground": "#77231B",
+			"titleBar.activeForeground": "#FEFCFC",
+			"titleBar.inactiveBackground": "#551913",
+			"titleBar.inactiveForeground": "#FEFCFC",
+			"statusBar.background": "#551913",
+			"statusBar.foreground": "#FEFCFC",
+			"statusBar.debuggingBackground": "#551913",
+			"statusBar.debuggingForeground": "#FEFCFC",
+			"statusBar.noFolderBackground": "#551913",
+			"statusBar.noFolderForeground": "#FEFCFC"
+		},
+		"windowColors.baseColor": "#c0392b"
+	}
 }
