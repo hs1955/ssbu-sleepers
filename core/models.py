@@ -1,5 +1,9 @@
+import pydantic
 from dataclasses import dataclass, field
-from storage import load_fighters, Fighter
+
+class Fighter(pydantic.BaseModel):
+    name: str
+    image: str
 
 @dataclass
 class Tier:
@@ -14,7 +18,6 @@ class TierList:
     par: str
     tiers: list[Tier]
     placements: dict[str, int] = field(default_factory=dict)
-    is_official: bool = False
 
     def tier_value(self, label: str) -> int:
         for tier in self.tiers:
@@ -42,7 +45,8 @@ def set_tier_values(tl: TierList):
 
 def input_fighters(tl: TierList, chars: dict[str, Fighter]):
     for c_id, fighter in chars.items():
-        print(" ".join(f"{tier.label}-{i+1}" for i, tier in enumerate(tl.tiers)))
+        print("======================")
+        print("\n".join(f"{tier.label}:{i+1}" for i, tier in enumerate(reversed(tl.tiers))))
         print(f"{fighter.name}")
         val = ""
         while not (val.isdigit() and 1 <= int(val) <= len(tl.tiers)):
@@ -58,9 +62,9 @@ def _main():
     ], {})
     # set_tier_values(tl)
     print(tl)
-    all_chars = load_fighters().chars
-    subset_all_chars = {c: all_chars[c] for c in ("1", "2", "3", "5", "6")}
-    input_fighters(tl, subset_all_chars)
+    # all_chars = load_fighters().chars
+    # subset_all_chars = {c: all_chars[c] for c in ("1", "2", "3", "5", "6")}
+    # input_fighters(tl, subset_all_chars)
     print(tl.placements)
 
 if __name__ == "__main__":

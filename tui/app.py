@@ -15,16 +15,21 @@ DATA = PROJECT_ROOT / "data"
 IMAGES = PROJECT_ROOT / "images"
 TIERLISTS = PROJECT_ROOT / "tierlists"
 
-TIERS = ["S", "A", "B", "C", "D", "E", "F"]
+TIERS = ["S+", "S", "S-", "A+", "A", "A-", "B+", "B-", "C+", "C-", "D", "E"]
 
 TIER_KEYS = {
-    "1": "S",
-    "2": "A",
-    "3": "B",
-    "4": "C",
-    "5": "D",
-    "6": "E",
-    "7": "F",
+    "1": "S+",
+    "2": "S",
+    "3": "S-",
+    "4": "A+",
+    "5": "A",
+    "6": "A-",
+    "7": "B+",
+    "8": "B-",
+    "9": "C+",
+    "0": "C-",
+    "-": "D",
+    "=": "E",
 }
 
 class TierRow(Horizontal):
@@ -62,7 +67,7 @@ class SSBUTierApp(App):
 
     @staticmethod
     def _load_characters() -> list[dict]:
-        return json.loads((DATA / "fighters.json").read_text())["fighters"]
+        return json.loads((DATA / "fighters.json").read_text())["chars"]
 
     def compose(self) -> ComposeResult:
         yield Header()
